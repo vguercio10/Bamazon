@@ -8,15 +8,15 @@ CREATE TABLE products (
   id INT NOT NULL AUTO_INCREMENT,
   product_Name VARCHAR(45) NULL,
   department_Name VARCHAR(45) NULL,
-  price INTEGER(10) NULL,
-  stock_quantity
+  price DECIMAL (10) NULL,
+  stock_quantity INTEGER (10),
   PRIMARY KEY (id)
 );
 
 INSERT INTO products (product_Name, department_Name, price, stock_quantity)
 VALUES ("diapers", "baby", 28.99, 200);
 INSERT INTO products (product_Name, department_Name, price, stock_quantity)
-VALUES ("baby Wipes", "baby", 10.99, 500);
+VALUES ("baby wipes", "baby", 10.99, 500);
 
 INSERT INTO products (product_Name, department_Name, price, stock_quantity)
 VALUES ("socks", "apparel", 6.99, 300);
@@ -31,7 +31,7 @@ INSERT INTO products (product_Name, department_Name, price, stock_quantity)
 VALUES ("dvd", "entertainment", 25, 100);
 
 INSERT INTO products (product_Name, department_Name, price, stock_quantity)
-VALUES ("cd" "entertainment", 20, 400);
+VALUES ("cd", "entertainment", 20, 400);
 
 INSERT INTO products (product_Name, department_Name, price, stock_quantity)
 VALUES ("screwdriver", "tools", 5, 100);
