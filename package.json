@@ -1,0 +1,29 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "bamazon homework activity",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "columnify": "^1.5.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vguercio10/Bamazon.git"
+  },
+  "keywords": [
+    "sql",
+    "bamazon"
+  ],
+  "author": "vanessa guercio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vguercio10/Bamazon/issues"
+  },
+  "homepage": "https://github.com/vguercio10/Bamazon#readme"
+}
