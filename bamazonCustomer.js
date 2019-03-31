@@ -35,7 +35,7 @@ function userBuy() {
             } else {
                 var newQuantity = stockQuantity - userQuantity;
                 var totalAmount = userQuantity * results[0].price;
-                console.log(`Your total is ${totalAmount}`);
+                console.log(`Your total is $ ${totalAmount}`);
             }
             updateQuantity(newQuantity, answers.itemID, stockQuantity, userQuantity);
         })
