@@ -32,12 +32,15 @@ function userBuy() {
             var userQuantity = answers.quantity;
             if (userQuantity > stockQuantity) {
                 console.log('Insufficient quantity!');
+                connection.end();
+
             } else {
                 var newQuantity = stockQuantity - userQuantity;
                 var totalAmount = userQuantity * results[0].price;
                 console.log(`Your total is $ ${totalAmount}`);
+                updateQuantity(newQuantity, answers.itemID, stockQuantity, userQuantity);
+
             }
-            updateQuantity(newQuantity, answers.itemID, stockQuantity, userQuantity);
         })
     });
 
