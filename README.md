@@ -7,7 +7,7 @@
 ###### For this application you will need to have MySQL database installed. Then you would will also need a MySQL client like DBeaver. Once you have those you can install the node packages and your ready to run the code!
 
 ### Customer Interface
-###### The customer interface allows the user to view the store items by ID, product name, department name, price, and stock quantity. The customer is prompted to pick an item by item ID that they would like to purchase and what quantity they would like to purchase. If the item is in stock the user is shown the cost of their purchase. If the item is not in stock or if the user would like to purchase over the stock quanity, the user is informed of insufficient stock quantity.
+###### The customer interface allows the user to view the store items by ID, product name, department name, price, and stock quantity. The customer is prompted to pick an item by item ID that they would like to purchase and what quantity they would like to purchase. If the item is in stock the user is shown the cost of their purchase and the updated stock quantity. If the item is not in stock or if the user would like to purchase over the stock quanity, the user is informed of insufficient stock quantity.
 
 
 #### This is an example of the customer purchasing an item from the store :
