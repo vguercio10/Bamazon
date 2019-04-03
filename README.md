@@ -16,6 +16,4 @@
 
 
 #### This is an example of the customer trying to purchase more than the stock quantity :
-![bamazoninsufficientquant](https://user-images.githubusercontent.com/47366649/55352879-eb861400-548f-11e9-9d54-83bf66ee07ce.gif)
-
-
+![bamazoninsufficientquant2](https://user-images.githubusercontent.com/47366649/55445423-4c454780-5589-11e9-8fba-f5d523cefd56.gif)
